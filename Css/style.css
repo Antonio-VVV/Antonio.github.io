@@ -420,14 +420,14 @@ span {
 .modal-content {
   background: #323946;
   color: #ffffff;
-  width: 90%;
-  max-width: 850px;
+  width: 80%;
+  max-width: 800px;
   border-radius: 15px;
-  padding: 25px;
+  padding: 50px;
   position: relative;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   animation: modalFade 0.3s ease;
-  max-height: 90vh;
+  max-height: 80vh;
   overflow-y: auto;
 }
 
@@ -438,8 +438,8 @@ span {
 
 
 .modal-content p{
-   font-size: 15px;
-   letter-spacing: 2px;
+   font-size: 13px;
+   letter-spacing: 1.5px;
 }
 
 /* petite animation */
@@ -717,6 +717,7 @@ span {
 
    .home-img img {
       width: 70vw;
+      height: 70vw;
       margin-top: 4rem;
    }
 
@@ -761,11 +762,11 @@ span {
    
    .home-img img {
       width: 50vw;
-      height: 80vw;
+      height: 50vw;
    }
    .about-img img {
       width: 50vw;
-      height: 80vw;
+      height: 50vw;
    }
    .home-content h1 {
       font-size: 30px;
@@ -791,7 +792,7 @@ span {
 
 @media (max-width: 368px) {
    .home-img img {
-      width: 70vw;
+      width: 50vw;
    }
    .home-content {
       align-items: center;
@@ -808,7 +809,7 @@ span {
       font-size: 50%;
    }
    .home-img img {
-      width: 50vw;
+      width: 40vw;
    }
 }
 
